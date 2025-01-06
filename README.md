@@ -4,12 +4,7 @@ Welcome to **ConversAI**, a sleek and powerful AI chatbot designed to provide **
 
 ## 🛠️ **Tech Stack**
 
-![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)  
-![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)  
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)  
-![Node.js](https://img.shields.io/badge/Node.js-16-green?style=for-the-badge&logo=nodedotjs)  
-![Express.js](https://img.shields.io/badge/Express.js-4-black?style=for-the-badge&logo=express)  
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Falcon-yellow?style=for-the-badge&logo=huggingface)
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)  ![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)  ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)  ![Node.js](https://img.shields.io/badge/Node.js-16-green?style=for-the-badge&logo=nodedotjs)  ![Express.js](https://img.shields.io/badge/Express.js-4-black?style=for-the-badge&logo=express)  ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Falcon-yellow?style=for-the-badge&logo=huggingface)
 
 ---
 
