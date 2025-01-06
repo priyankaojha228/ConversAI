@@ -2,9 +2,14 @@
 
 Welcome to **ConversAI**, a sleek and powerful AI chatbot designed to provide **intelligent, human-like conversations**. Built using **Hugging Face's Falcon-7B-Instruct model**, this chatbot delivers accurate and context-aware responses for a seamless chat experience.
 
-![GitHub Repo Stars](https://img.shields.io/github/stars/priyankaojha228/chat-bot) 
-![GitHub Forks](https://img.shields.io/github/forks/priyankaojha228/chat-bot)
-![GitHub Issues](https://img.shields.io/github/issues/priyankaojha228/chat-bot)
+## 🛠️ **Tech Stack**
+
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)  
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)  
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)  
+![Node.js](https://img.shields.io/badge/Node.js-16-green?style=for-the-badge&logo=nodedotjs)  
+![Express.js](https://img.shields.io/badge/Express.js-4-black?style=for-the-badge&logo=express)  
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Falcon-yellow?style=for-the-badge&logo=huggingface)
 
 ---
 
@@ -30,13 +35,6 @@ Welcome to **ConversAI**, a sleek and powerful AI chatbot designed to provide **
 - **Backend**: Node.js, Express  
 - **AI Model**: Hugging Face Falcon-7B-Instruct  
 - **Hosting**: (Optional - Vercel/Heroku/Railway)
-
----
-
-## 🚀 **Live Demo** (Optional)
-
-Check out the **live version** of the chatbot:  
-👉 [Live Demo Link](https://your-live-demo-link.com)
 
 ---
 
