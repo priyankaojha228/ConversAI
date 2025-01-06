@@ -19,7 +19,7 @@ Welcome to **ConversAI**, a sleek and powerful AI chatbot designed to provide **
 ---
 
 ## 💬 **Chatbot UI Example
-![image](https://github.com/user-attachments/assets/68d938f1-b652-485c-bf93-ea6fbb27d8b1)
+![image](https://github.com/user-attachments/assets/1e802bc2-d456-4039-83df-830016449331)
 
 
 ---
