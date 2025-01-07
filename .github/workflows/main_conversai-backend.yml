@@ -22,19 +22,21 @@ jobs:
           node-version: '18.x'
 
       - name: npm install, build, and test
+        working-directory: ./backend  # Add working directory
         run: |
           npm install
           npm run build --if-present
           npm run test --if-present
 
       - name: Zip artifact for deployment
+        working-directory: ./backend  # Add working directory
         run: zip release.zip ./* -r
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: release.zip
+          path: backend/release.zip  # Adjust path
 
   deploy:
     runs-on: ubuntu-latest
@@ -43,7 +45,7 @@ jobs:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
-      id-token: write #This is required for requesting the JWT
+      id-token: write # This is required for requesting the JWT
 
     steps:
       - name: Download artifact from build job
@@ -52,8 +54,8 @@ jobs:
           name: node-app
 
       - name: Unzip artifact for deployment
-        run: unzip release.zip
-      
+        run: unzip backend/release.zip  # Adjust path
+
       - name: Login to Azure
         uses: azure/login@v2
         with:
@@ -67,5 +69,4 @@ jobs:
         with:
           app-name: 'ConversAI-backend'
           slot-name: 'Production'
-          package: .
-          
+          package: backend  # Deploy from the backend folder
