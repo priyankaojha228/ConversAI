@@ -3,19 +3,22 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const path = require("path");
 const axios = require("axios");
-require('dotenv').config();  // Ensure dotenv is loaded
+require("dotenv").config(); // Ensure dotenv is loaded
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-// Hugging Face API URL and Key
-const HUGGING_FACE_API_URL = 'https://api-inference.huggingface.co/models/tiiuae/falcon-7b-instruct';
+const HUGGING_FACE_API_URL = "https://api-inference.huggingface.co/models/tiiuae/falcon-7b-instruct";
 const API_KEY = process.env.HUGGINGFACE_API_KEY;
 
-// Enable CORS and allow only your frontend's URL
-app.use(cors({
-  origin: 'https://lemon-beach-0c68ff110.4.azurestaticapps.net', // Replace with your actual frontend URL
-}));
+// Enable CORS to allow requests from your frontend's URL
+app.use(
+  cors({
+    origin: "https://lemon-beach-0c68ff110.4.azurestaticapps.net", // Replace with your actual frontend URL
+    methods: ["GET", "POST"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
 
 // Middleware
 app.use(bodyParser.json());
