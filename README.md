@@ -11,7 +11,7 @@ Welcome to **ConversAI**, a sleek and powerful AI chatbot designed to provide **
 ## 🎯 **Features**
 
 ✅ AI-powered responses using Hugging Face
-✅ Cloud deployment on Azure for global accessibility, ensuring users can access the chatbot from anywhere in the world.
+✅ Cloud deployment on Azure for global accessibility.
 ✅ Multi-turn conversations with context awareness  
 ✅ Typing indicator for a more interactive experience  
 ✅ Responsive UI  
@@ -51,9 +51,9 @@ You can access the deployed chatbot using the following links:
 
 By deploying the chatbot on the cloud, you get:
 
-✅ **Global Accessibility** – Users can access the chatbot from anywhere.  
-✅ **Scalability** – Automatically scales based on usage.  
-✅ **Faster Response Times** – Powered by Microsoft's secure and reliable data centers.
+✅ Global Accessibility – Users can access the chatbot from anywhere.  
+✅ Scalability – Automatically scales based on usage.  
+✅ Faster Response Times – Powered by Microsoft's secure and reliable data centers.
 ---
 
 ## 📦 **Installation Guide (Local Deployment)**
