@@ -68,7 +68,7 @@ async function sendMessage() {
         // Display the typing indicator while waiting for the API's response
         displayTypingIndicator();
 
-        const response = await fetch('http://127.0.0.1:3000/chat', {
+        const response = await fetch('https://conversai-backend-edf8cwfhfkeja2bd.westus-01.azurewebsites.net/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
