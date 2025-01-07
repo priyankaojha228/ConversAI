@@ -4,16 +4,17 @@ Welcome to **ConversAI**, a sleek and powerful AI chatbot designed to provide **
 
 ## 🛠️ **Tech Stack**
 
-![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)  ![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)  ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)  ![Node.js](https://img.shields.io/badge/Node.js-16-green?style=for-the-badge&logo=nodedotjs)  ![Express.js](https://img.shields.io/badge/Express.js-4-black?style=for-the-badge&logo=express)  ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Falcon-yellow?style=for-the-badge&logo=huggingface)
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)  ![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)  ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)  ![Node.js](https://img.shields.io/badge/Node.js-16-green?style=for-the-badge&logo=nodedotjs)  ![Express.js](https://img.shields.io/badge/Express.js-4-black?style=for-the-badge&logo=express)  ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Falcon-yellow?style=for-the-badge&logo=huggingface) ![Azure](https://img.shields.io/badge/Azure-Cloud-blue?style=for-the-badge&logo=microsoftazure)
 
 ---
 
 ## 🎯 **Features**
 
-✅ AI-powered responses using Hugging Face  
+✅ AI-powered responses using Hugging Face
+✅ Cloud deployment on Azure for global accessibility, ensuring users can access the chatbot from anywhere in the world.
 ✅ Multi-turn conversations with context awareness  
 ✅ Typing indicator for a more interactive experience  
-✅ Mobile-friendly and responsive UI  
+✅ Responsive UI  
 ✅ Lightweight and fast  
 
 ---
@@ -29,11 +30,33 @@ Welcome to **ConversAI**, a sleek and powerful AI chatbot designed to provide **
 - **Frontend**: HTML, CSS, JavaScript  
 - **Backend**: Node.js, Express  
 - **AI Model**: Hugging Face Falcon-7B-Instruct  
-- **Hosting**: (Optional - Vercel/Heroku/Railway)
+- **Hosting**: Azure Static Web Apps + Azure App Service
 
 ---
 
-## 📦 **Installation Guide**
+## ☁️ **Cloud Deployment on Azure**
+
+**ConversAI chatbot** is now **live on the cloud**, providing seamless and interactive AI-powered conversations from anywhere in the world! 🌍 Powered by **Azure Static Web Apps** and **Azure App Service**, the chatbot is built to scale effortlessly and deliver fast, context-aware responses.
+
+You can access the deployed chatbot using the following links:
+
+| **Service**       | **URL**                                                                                  |
+|-------------------|------------------------------------------------------------------------------------------|
+| **Frontend**      | 🌐 [ConversAI Frontend](https://lemon-beach-0c68ff110.4.azurestaticapps.net)               |
+| **Backend**       | 🖥️ [ConversAI Backend API](https://conversai-backend-edf8cwfhfkeja2bd.westus-01.azurewebsites.net/chat) |
+
+---
+
+### 🌟 **Why Cloud Deployment?**
+
+By deploying the chatbot on the cloud, you get:
+
+✅ **Global Accessibility** – Users can access the chatbot from anywhere.  
+✅ **Scalability** – Automatically scales based on usage.  
+✅ **Faster Response Times** – Powered by Microsoft's secure and reliable data centers.
+---
+
+## 📦 **Installation Guide (Local Deployment)**
 
 Follow these steps to get the chatbot running locally:
 
